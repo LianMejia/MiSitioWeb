@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* section{
+    display: block;
+} */
+
+* > p, li {
+    font-size: 20px;
+} 
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background: #0C0C0C;
+    padding: 14px;
+}
+
+.Titulo, nav{
+    display: inline-block;
+    color: white;
+    letter-spacing: 1px;
+}
+
+nav, ul, li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav, ul, li, a{
+    text-decoration: none;
+    color: white;
+}
+
+/* nav > li, a:active{
+    color: red;
+} */
